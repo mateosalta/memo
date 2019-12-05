@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the  package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-11-28 22:07+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../app/common/ColorDialog.qml:25
+msgid "Pick a color"
+msgstr ""
+
+#: ../app/common/ColorDialog.qml:131
+msgid "OK"
+msgstr ""
+
+#: ../app/common/ColorDialog.qml:152
+#: ../app/mainPage/MultiSelectionHandler.qml:33 ../app/ui/EditMemoPage.qml:278
+#: ../app/ui/EditMemoPage.qml:302 ../app/ui/MainPage.qml:273
+msgid "Cancel"
+msgstr ""
+
+#: ../app/editPage/ListManager.qml:40
+msgid "List:"
+msgstr ""
+
+#. TRANSLATORS: Text of a button used for add an item in the To-do list.
+#: ../app/editPage/ListManager.qml:100
+msgid "Add item"
+msgstr ""
+
+#: ../app/editPage/ListManager.qml:292
+msgid "Add"
+msgstr ""
+
+#. TRANSLATORS: This is a custom text for the "enter" key of
+#. the on-screen keyboard (max 4 char, so it's not elided)
+#: ../app/editPage/ListManager.qml:292 ../app/ui/EditMemoPage.qml:82
+msgid "Next"
+msgstr ""
+
+#: ../app/editPage/PicturesManager.qml:44
+msgid "Related pictures:"
+msgstr ""
+
+#: ../app/editPage/PicturesManager.qml:147
+msgid "Remove picture from selection"
+msgstr ""
+
+#: ../app/mainPage/MultiSelectionHandler.qml:55
+msgid "No item selected"
+msgstr ""
+
+#: ../app/mainPage/MultiSelectionHandler.qml:56
+#, qt-format
+msgid "%1 item selected"
+msgid_plural "%1 items selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/ui/AboutPage.qml:26 ../app/ui/AboutPage.qml:27
+msgid "About"
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:27
+msgid "Credits"
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:27
+msgid "Copyright"
+msgstr ""
+
+#. TRANSLATORS: Version of the software (e.g. "Version 0.3.51")
+#: ../app/ui/AboutPage.qml:86
+msgid "Version "
+msgstr ""
+
+#. TRANSLATORS: This is shown where it's impossible to get
+#. the version number (e.g. "Version UNKNOWN")
+#: ../app/ui/AboutPage.qml:104
+msgid "UNKNOWN"
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:126
+msgid "Released under the terms of the GNU GPL v3"
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:137
+msgid "Updated and maintained by:"
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:155
+msgid "Source code available on "
+msgstr ""
+
+#: ../app/ui/AboutPage.qml:174
+msgid "A big thanks to:"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:30
+msgid "Details"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:30
+msgid "Add a new memo"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:76
+msgid "No title"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:90
+msgid "No description"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:111
+#, qt-format
+msgid "Last update: %1"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:190
+msgid "Memo saved!"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:196
+msgid "Save"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:205 ../app/ui/EditMemoPage.qml:263
+#: ../app/ui/MainPage.qml:220 ../app/ui/MainPage.qml:259
+msgid "Delete memo"
+msgid_plural "Delete memos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/ui/EditMemoPage.qml:212 ../app/ui/MainPage.qml:213
+msgid "Change memo color"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:237 ../app/ui/MainPage.qml:248
+msgid "Memo updated!"
+msgid_plural "Memos updated!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/ui/EditMemoPage.qml:252
+msgid "Memo aborted!"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:263
+msgid "Empty memo"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:264
+msgid "This memo has no content."
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:264 ../app/ui/MainPage.qml:260
+msgid "Are you sure?"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:266 ../app/ui/MainPage.qml:262
+msgid "Delete"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:274 ../app/ui/MainPage.qml:269
+msgid "Memo deleted!"
+msgid_plural "Memos deleted!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/ui/EditMemoPage.qml:291
+msgid "Discard changes?"
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:292
+msgid "Your memo will be PERMANENTLY lost."
+msgstr ""
+
+#: ../app/ui/EditMemoPage.qml:294
+msgid "Discard"
+msgstr ""
+
+#: ../app/ui/ImageViewer.qml:75
+msgid "Back"
+msgstr ""
+
+#: ../app/ui/MainPage.qml:29
+msgid "Memo"
+msgstr ""
+
+#: ../app/ui/MainPage.qml:54
+msgid "No stored memos"
+msgstr ""
+
+#: ../app/ui/MainPage.qml:55
+msgid "Swipe the bottom edge to add a new memo."
+msgstr ""
+
+#: ../app/ui/MainPage.qml:198
+msgid "About..."
+msgstr ""
+
+#: ../app/ui/MainPage.qml:205
+msgid "Switch to one-column list"
+msgstr ""
+
+#: ../app/ui/MainPage.qml:205
+msgid "Switch to grid"
+msgstr ""

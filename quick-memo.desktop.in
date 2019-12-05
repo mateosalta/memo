@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Memo
+Exec=@EXEC@
+Icon=@ICON@
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Splash-Show-Header=true
+X-Ubuntu-Splash-Title= Memo
+X-Ubuntu-Splash-Color=#95c253
+
+Name[en_US]=Memo

@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "A note-taking app with support for images, lists and colors. WARNING: This software is still in a beta phase.",
+    "framework": "ubuntu-sdk-16.04",
+    "hooks": {
+        "quick-memo": {
+            "apparmor": "quick-memo.apparmor",
+            "desktop": "quick-memo.desktop"
+        }
+    },
+    "maintainer": "Mateo Salta <mateo_salta@yahoo.com>",
+    "name": "quick-memo.mateo-salta",
+    "title": "Memo",
+    "version": "1.3"
+}

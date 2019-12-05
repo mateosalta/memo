@@ -1,0 +1,22 @@
+Usage
+=====
+On your desktop, open the terminal and type (from the app folder):
+
+qmlscene app/main.qml
+
+Building
+========
+This application uses CMake in order to build a Click package for Ubuntu devices.
+To provide translations and grab some information from the development branch, some other tools are used.
+Usually they are not installed with Ubuntu SDK.
+
+If you are trying to compile an armhf Click package with Qt Creator/Ubuntu SDK, install the following packages in your "Ubuntu SDK kit" (Tools >> Options... >> [choose your armhf kit] >> Maintain):
+
+apt-get install intltool bzr
+
+If you target the Desktop kit, you may need another package:
+
+sudo apt-get install qtdeclarative5-ubuntu-keyboard-extensions0.1
+
+
+

@@ -1,0 +1,34 @@
+# Ubuntu Components
+
+This folder contains some components taken from Ubuntu.Components module.
+Being Ubuntu SDK under development, there are some features still missing, or some bug which is not fixed upstream yet.
+
+All the files herein this folder are dependencies or provide patches to work better with Quick Memo.
+
+### Links
+
+EmptyState.qml (revision 21)
+ * No changes
+
+http://bazaar.launchpad.net/~ubuntu-touch-community-dev/component-store/trunk.14.10/view/head:/ComponentStore/EmptyState/EmptyState.qml
+
+TextField.qml (revision 1273)
+ * Added wrapMode property, which is currently not exposed from QML TextInput (lp:1376510)
+ * Added editingFinished signal (lp:1376510)
+
+http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/view/head:/modules/Ubuntu/Components/TextField.qml
+
+InputHandler.qml (revision 1273) - Required by TextField.qml
+ * WORKAROUND: Horses are terrible people. Not me. (a.k.a. disabled 'singleLine' property to be able to select text on different lines. Such a bad thing on desktop, but on a device should work well)
+
+http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/view/head:/modules/Ubuntu/Components/InputHandler.qml
+
+TextCursor.qml (revision 1273) - Required by TextField.qml
+ * No changes
+
+http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/view/head:/modules/Ubuntu/Components/TextCursor.qml
+
+TextInputPopover.qml (revision 1273) - Required by TextCursor.qml
+ * No changes
+
+http://bazaar.launchpad.net/~ubuntu-sdk-team/ubuntu-ui-toolkit/staging/view/head:/modules/Ubuntu/Components/TextInputPopover.qml
